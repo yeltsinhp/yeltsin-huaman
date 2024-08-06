@@ -1,45 +1,31 @@
-# yeltsin-huaman
+# MovieApp
 
-This template should help get you started developing with Vue 3 in Vite.
+MovieApp es una aplicación web que permite filtrar y mostrar películas desde un archivo JSON. La aplicación está desarrollada con Vue 3, TypeScript, Pinia, Vue Router y Bootstrap.
 
-## Recommended IDE Setup
+## Descripción
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Este proyecto es una aplicación web que muestra una lista de películas y permite filtrar por nombre, descripción y género. La aplicación está desarrollada con Vue 3, TypeScript, Pinia y Bootstrap.
 
-## Type Support for `.vue` Imports in TS
+## Características
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- Mostrar una lista de películas obtenida desde un archivo JSON.
+- Filtrar películas por nombre, descripción y género.
+- Etiquetas de género con colores personalizados.
+- Mensaje informativo cuando no hay películas disponibles.
 
-## Customize configuration
+## Tecnologías
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- [Vue 3](https://vuejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Pinia](https://pinia.vuejs.org/)
+- [Vue Router](https://router.vuejs.org/)
+- [Bootstrap](https://getbootstrap.com/)
 
-## Project Setup
+## Instalación
 
-```sh
-npm install
-```
+1. Clona el repositorio:
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+   ```bash
+   git clone https://github.com/usuario/proyecto-peliculas.git
+   cd proyecto-peliculas
+   ```
