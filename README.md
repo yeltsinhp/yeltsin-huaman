@@ -12,6 +12,7 @@ Este proyecto es una aplicación web que muestra una lista de películas y permi
 - Filtrar películas por nombre, descripción y género.
 - Etiquetas de género con colores personalizados.
 - Mensaje informativo cuando no hay películas disponibles.
+- Responsive App (mobil, tablet y escritorio)
 
 ## Tecnologías
 
