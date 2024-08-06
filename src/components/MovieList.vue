@@ -1,6 +1,9 @@
 <template>
     <div>
-        <MovieItem v-for="movie in filteredMovies" :key="movie.id" :movie="movie" />
+        <div v-if="filteredMovies.length === 0" class="alert alert-info">
+            No hay películas disponibles.
+        </div>
+        <MovieItem v-else v-for="movie in filteredMovies" :key="movie.id" :movie="movie" />
     </div>
 </template>
 
@@ -14,3 +17,9 @@ import type { Movie } from '../interfaces/Movie';
 const movieStore = useMovieStore();
 const filteredMovies: ComputedRef<Movie[]> = computed(() => movieStore.filteredMovies);
 </script>
+
+<style scoped>
+.alert {
+    margin-top: 20px;
+}
+</style>
