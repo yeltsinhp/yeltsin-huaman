@@ -1,5 +1,5 @@
 <template>
-    <div class="card mb-3">
+    <div class="card mb-3 shadow-custom">
         <div class="row g-0">
             <div class="col-md-8">
                 <div class="card-body">
@@ -46,5 +46,14 @@ const genreClass = computed(() => {
     width: 90%;
     height: 90%;
     object-fit: cover;
+}
+
+.shadow-custom {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.shadow-custom:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 </style>
