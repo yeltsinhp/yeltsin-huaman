@@ -29,3 +29,12 @@ Este proyecto es una aplicación web que muestra una lista de películas y permi
    git clone https://github.com/usuario/proyecto-peliculas.git
    cd proyecto-peliculas
    ```
+
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
